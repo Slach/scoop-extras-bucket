@@ -1,0 +1,23 @@
+{
+    "version": "0.1.7-alpha",
+    "description": "Powerful UI for manage Kubernetes",
+    "homepage": "https://k8studio.io/features/",
+    "license": "proprietary",
+    "url": "https://github.com/guiqui/k8Studio/releases/download/v0.1.7-alpha/K8Studio.Setup.0.1.7-alpha.exe/#dl.7z",
+
+    "extract_dir": "$PLUGINSDIR",
+    "pre_install": "Expand-7zipArchive \"$dir\\app-64.7z\" $dir -Removal",
+
+    "hash": "8987159128a5f80963897503c410e860780fcf590fbdc3da9a137855226bc1ab",
+    "bin": "K8Studio.exe",
+    "shortcuts": [
+        [
+            "K8Studio.exe",
+            "K8Studio"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/guiqui/k8Studio/releases/download/v$version-alpha/K8Studio.Setup.$version.exe/#dl.7z"
+    }
+}
