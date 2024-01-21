@@ -1,0 +1,36 @@
+{
+    "version": "3.1.19",
+    "description": "An intelligent and versatile general-purpose SQL client and reporting tool for databases which integrates ChatGPT capabilities.",
+    "homepage": "https://github.com/chat2db/Chat2DB",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/chat2db/Chat2DB/releases/download/v3.1.19/Chat2DB-Setup-3.1.19.exe#/dl.7z",
+            "hash": "sha512:e77e79cfa3bc8bef2ab35fea7791e263c64fe5fc5d13be3f649462ee406da466998763c66471d44fb9fd1d1ce6a442c1ed51013d8deb8164fe03db664969d72b",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\" -Force -Recurse"
+            ]
+        }
+    },
+    "shortcuts": [
+        [
+            "Chat2DB.exe",
+            "Chat2DB"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/chat2db/Chat2DB"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/chat2db/Chat2DB/releases/download/v$version/Chat2DB-Setup-$version.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "regex": "sha512:\\s+$base64"
+        }
+    }
+}
