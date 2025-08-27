@@ -1,16 +1,16 @@
 {
-    "version": "0.23.2",
+    "version": "0.24.1",
     "description": "A privacy-focussed, local-first, open-source, and ready-to-use alternative for Notion & Miro.",
     "homepage": "https://affine.pro/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/toeverything/AFFiNE/releases/download/v0.23.2/affine-0.23.2-stable-windows-x64.exe#/dl.7z",
-            "hash": "sha512:64c189e2312f6b0e9c1059fa27b1101f806aa52994b81457be63c84c7f3e0e23a187ea3bd256f657f24a32402f7b8e610499db8ebdc92027a01d61006500db67"
+            "url": "https://github.com/toeverything/AFFiNE/releases/download/v0.24.1/affine-0.24.1-stable-windows-x64.exe#/dl.7z",
+            "hash": "sha512:35a23090258c9b800dc5045512b0b6d740472f5f9a9716ad0f04a70604bf69dcd5b4d3b8fea14c8c7616c13e77ddf5e7d7918ad411b6f5a05262f27095ce9047"
         },
         "arm64": {
-            "url": "https://github.com/toeverything/AFFiNE/releases/download/v0.23.2/affine-0.23.2-stable-windows-arm64.exe#/dl.7z",
-            "hash": "sha512:fc4f05cb5f774250a4b3bef1b125f2c2f7c01481ee66e9fe08689ce0258ca37ac9e42dfc8605ee3605abf2cf80450bd40400716436cfa9e003c579033fb0b33a"
+            "url": "https://github.com/toeverything/AFFiNE/releases/download/v0.24.1/affine-0.24.1-stable-windows-arm64.exe#/dl.7z",
+            "hash": "sha512:a8aa3da93f519836d970ed744e4bb5c1dae06e2561f09338265ac57c370df2116da532e5a02f840f337fe2db1525f6e6be86e1b68c7bf11f0cf21fc7fe6e8359"
         }
     },
     "pre_install": [

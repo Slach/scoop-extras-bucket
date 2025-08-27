@@ -1,10 +1,10 @@
 {
-    "version": "25.6.1.4577",
+    "version": "25.7.5.4669",
     "description": "An easy, no-cost messenger that transcends standard chat.",
     "homepage": "https://www.kakaocorp.com/service/KakaoTalk",
     "license": "Unknown",
     "url": "http://app.pc.kakao.com/talk/win32/KakaoTalk_Setup.exe#/dl.7z",
-    "hash": "a9f13004c739b5d181e67bf9bbd52434b3c2b6eec57e98809387a435d7ab080f",
+    "hash": "2eac75ddc86f2b099ec131e0813df4fe55affa993886e5551710fd1905d04ef5",
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\unisntall*\" -Recurse",
     "shortcuts": [
         [
